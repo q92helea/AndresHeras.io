@@ -1,0 +1,97 @@
+/*Colores elegidos de  COLORMIND:
+#29be09
+#7bdb1f
+#7ac8c0
+#d6e6e8
+#87a98e
+
+/*Estilos generales*/
+* {
+  /* Restablecer el margen y el espacido interno de la hoja*/
+  margin: 0;
+  padding: 0;
+  /*Restablecer el modelo de caja de todos los elementos HTML*/
+  box-sizing: border-box;
+  /*http:\\mzl.la/3lAK8ok*/
+  font-family: Arial, Helvetica, sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:wght@300&display=swap");
+body {
+  margin: 0em;
+  font-family: "Roboto", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  /*El body ocupará el 100% del viewport*/
+  width: 100;
+  height: 100vw;
+}
+
+/*Dimensiones del body*/
+
+body {
+  .landing {
+    font-family: "Courier New", Courier, monospace;
+    display: inline-block;
+    margin: 10 0 10 0;
+    padding: 10 0 10 0;
+  }
+}
+.landing h1 {
+  background-color: #7bdb1f;
+}
+.landing p img {
+  align-content: center;
+}
+.landing ul {
+  display: block;
+}
+
+/*Titulo de las actividades*/
+header {
+  background-color: #d6e6e8;
+  position: relative;
+}
+section h2 {
+  background-color: #29be09;
+  color: white;
+}
+/*Menú del tema*/
+
+nav {
+  text-align: center;
+}
+nav a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+.centro ul li {
+  text-align: center;
+}
+
+section nav li {
+  display: inline-block;
+  margin: 5 5 5 5;
+  padding: 5px 10px 5px 10px;
+  background-color: greenyellow;
+  color: grey;
+}
+nav li {
+  display: inline-block;
+  margin: 5 5 5 5;
+  padding: 5px 10px 5px 10px;
+  background-color: rgb(106, 255, 47);
+  color: grey;
+}
+pre {
+  font-family: monospace;
+}
+
+footer {
+  text-align: center;
+  background-color: #7ac8c0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+}

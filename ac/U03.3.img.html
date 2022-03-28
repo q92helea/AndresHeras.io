@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <title>1ºASIR</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Actividades Documentos de HTML">
+        <meta name="autor" content="Andrés Heras">
+        <meta name="keywords" content="HTML5,HTML">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+
+<body>
+    <!-- El cuerpo consta de: 
+    - menú principal <nav> : Nos dará acceso a toda la Web.
+    - estructura semántica básica donde habrá otro menú secundario de navegación que 
+    conecta la páginas que comparten el mismo tema-->
+
+    <nav>
+        <ul class="menu">
+        <li><a href="../index.html">Inicio</a>
+        </li>
+        <li><a href="../ac/U01.html">Unidad 01</a>
+        </li>
+        <li><a href="../ac/U02.html">Unidad 02</a></li>
+        <!-- <li><a href="../ac/U03.1.EC.html">Unidad 03</a>
+        </li> -->
+ 
+        <li><a href="../ac/U04.html">Unidad 04</a>
+        </li>
+        <li><a href="../cp/index.html">Córdoba Patrimonio</a>
+        </li>
+        <li> <a href="/rec/recetas.html">Las Recetas de la Abuela</a>
+        </li>
+    </ul>
+</nav>
+
+    <header>
+        <h1>UNIDAD 03</h1>
+        <h2 id="Inicio">Documentos HTML. HTML5</h2>
+    </header>
+
+    <main>
+
+        <section>
+            <h2 style="text-align: center; text-decoration: solid;">3.3 IMÁGENES</h2>
+            <nav><ul class="menu">
+                <li><a href="../ac/U03.1.EC.html">
+                    <h3>3.1 Estructura y contenido</h3>
+                </a></li>
+                <li><a href="../ac/U03.2.link.html"><h3>3.2 Enlaces</h3></a></li> 
+                <!-- <li><a href="../ac/U03.3.img.html">
+                    <h3>3.3 Imágenes</h3>
+                </a></li> -->
+                <li><a href="../ac/U03.4.list.html">
+                    <h3>3.4 Listas</h3>
+                </a></li>
+                <li><a href="../ac/U03.5.table.html">
+                    <h3>3.5 Tablas</h3>
+                </a></li>
+                <li><a href="../ac/U03.6v&a.html">
+                    <h3>3.6 Vídeos</h3>
+                </a></li>
+            </ul>
+</nav>
+
+    <p>3.3.1 Diferencias entre la etiqueta title y alt.</p>
+    <p><u>Respuesta</u></p>
+    <p> Son atributos que se puede utilizar en la etiqueta &lt;img&gt;. La diferencia entre ambos es atributo
+        estriba
+        en que <strong>TITLE</strong> es un un texto emergente
+        (<em>tooltip</em>), que da
+        <strong>una información adicional</strong> cuando pasamos el puntero por la imagen, mientras que
+        <strong>ALT</strong> proporciona un <strong>texto alternativo a la imagen</strong> cuando esta no está
+        disponible, por lo que
+        ALT es un atributo <strong>obligatorio</strong>, ya que es muy importante para la accesibilidad web.
+        Por tanto, <strong>TITLE</strong> es importante que contenga <em>palabras clave</em> que permitan localizar
+        la imagen
+        desde el buscador y el <strong>ALT</strong> debe ser una descripción de lo que muestra la imagen.
+    </p>
+    <br>
+
+    <p>3.3.2 ¿Para que se utilizan los elementos &lt;map&gt; y &lt;area&gt;?</p>
+    <p><u>Respuesta</u></p>
+    <p>
+        Estas dos etiquetas sirven para construir un mapa de imagen, que es una imagen donde dentro de la misma
+        hay
+        varios
+        hipervínculos hacia otros recursos. La <em>etiqueta</em> &lt;map&gt; define el mapa de imagen
+        con zonas seleccionables del lado del cliente, mientras que <em>atributo</em> area
+        define las zonas seleccionables, que pueden ser un rectángulo, un círculo ó un polígono: El rectángulo
+        tiene 2 coordenadas: la esquina superior izquierda y la inferior derecha. El círculo las coordenadas del
+        centro del círculo y
+        el tamaño del radio. El polígono cada uno de las coordenadas que lo forman.
+    </p>
+    <br>
+
+    <p>3.3.3 Escribe un documento html que muestre el siguiente resultado.</p>
+    <img src="../images/logofalla.png" alt="Icono de Enlace del logo roto">
+    <br>
+    <a href="rU03/rU03.3.3.html" target="_blank">Respuesta</a>
+    <pre>
+    &lt;!DOCTYPE html>
+    &lt;html lang="es">
+        &lt;head>
+            &lt;title>U03.Act3.3 Imágenes&lt;/title>
+            &lt;meta charset="utf-8">
+            &lt;meta name="description" content="Actividades de lenguaje de marcas, LMSGI">
+            &lt;meta name="autor" content="Andrés Heras">
+            &lt;meta name="keywords" content="HTML5, marcas, etiquetas, img, imágenes">
+        &lt;/head>
+        
+    &lt;body>
+    &lt;img src="../" alt="Logo IESGC">
+    &lt;/body>
+    &lt;/html>
+</pre>
+    <br>
+
+    <p>3.3.4 Diseña un logo para el sitio “Córdoba, ciudad patrimonio” y utilízalo como icono
+        de página (favicon). Trabaja con las iniciales (CCP) y algún editor gráfico online
+        como canva.</p>
+    <img src="../images/logoCCP.svg" alt="Logo Córdoba, Ciudad Patrimonio" width="100" height="100">
+    <br>
+    <p>3.3.5 Completa el documento y crea en el logo un enlace a la página del IES Gran
+        Capitán.
+    <pre>
+                &lt;!DOCTYPE html>
+                &lt;html>
+                &lt;body>
+                
+                &lt;image src="logoiesgc.png" alt="HTML tutorial">
+                &lt;/body>
+                
+                &lt;/html>
+            </pre>
+    <p>Resultado:</p>
+
+    <img src="../images/IES_Gran_Capitan-_Logo.jpg" alt="Logo Gran Capitán" title="Logo Gran Capitán" width="100"
+        height="100">
+    <br>
+    <a href="rU03/rU03.3.5.html" target="_blank">Respuesta</a>
+    <br>
+
+    <p> 3.3.6 Incluye una imagen en cada una de las páginas del sitio “Córdoba, ciudad
+        patrimonio”.</p>
+    <br>
+    <a href="../cp/index.html" target="_blank">Respuesta</a>
+    <br>
+    <p>3.3.7 Añada al sitio “Córdoba, Ciudad Patrimonio” una nueva página con unas 5
+        fotos que presente un recorrido turístico por Córdoba.</p>
+    <a href="../cp/recorrido.html" target="_blank">Respuesta</a>
+    <br>
+    <p>3.3.8 Utiliza la imagen adjunta del sistema solar para crear una página con una imagen
+        con enlaces a los diferentes elementos (planetas, lunas, ...) que aparecen en la
+        misma.
+    </p>
+    <img src="../images/SistemaSolar.jpg" alt="mapa del sistema solar" usemap="#imgmap2021111163533">
+    <map id="imgmap2021111163533" name="imgmap2021111163533">
+        <area shape="circle" alt="Saturno" title="" coords="566,225,34"
+            href="https://es.wikipedia.org/wiki/Saturno_(planeta)" target="_blank" />
+        <area shape="rect" alt="Cinturón de asteroides" title="" coords="263,11,344,215"
+            href="https://es.wikipedia.org/wiki/Cintur%C3%B3n_de_asteroides" target="_blank" />
+        <area shape="circle" alt="Jupiter" title="" coords="416,305,65"
+            href="https://es.wikipedia.org/wiki/J%C3%BApiter_(planeta)" target="_blank" />
+        <area shape="circle" alt="Marte" title="" coords="229,171,10"
+            href="https://es.wikipedia.org/wiki/Marte_(planeta)" target="_blank" />
+        <area shape="circle" alt="La Tierra" title="" coords="186,186,13" href="https://es.wikipedia.org/wiki/Tierra"
+            target="_blank" />
+        <area shape="circle" alt="Venus" title="" coords="154,205,11"
+            href="https://es.wikipedia.org/wiki/Venus_(planeta)" target="_blank" /><area shape="circle" alt="Mercurio"
+            title="" coords="124,218,11" href="https://es.wikipedia.org/wiki/Mercurio_(planeta)" target="_blank" />
+        <area shape="rect" alt="Sol" title="" coords="2,152,94,380" href="https://es.wikipedia.org/wiki/Sol"
+            target="_blank" /><area shape="circle" alt="Ceres, planeta enano" title="" coords="301,395,21"
+            href="https://es.wikipedia.org/wiki/Ceres_(planeta_enano)" target="_blank" /><area shape="rect"
+            alt="Cometas" title="" coords="582,361,671,409" href="https://es.wikipedia.org/wiki/Cometa"
+            target="_blank" />
+        <area shape="circle" alt="La Luna" coords="186,149,18" href="https://es.wikipedia.org/wiki/Luna"
+            target="_blank" /><area shape="circle" alt="Urano" title="" coords="716,173,32"
+            href="https://es.wikipedia.org/wiki/Urano_(planeta)" target="_blank" /><area shape="circle" alt="Neptuno"
+            title="" coords="781,135,27" href="https://es.wikipedia.org/wiki/Neptuno_(planeta)" target="_blank" /><area
+            shape="rect" alt="Satélite Estigia" title="" coords="863,231,907,245"
+            href="https://es.wikipedia.org/wiki/Estigia_(sat%C3%A9lite)" target="_blank" /><area shape="rect"
+            alt="Satélite Nix" title="" coords="832,184,858,194"
+            href="https://es.wikipedia.org/wiki/Nix_(sat%C3%A9lite)" target="_blank" /><area shape="rect"
+            alt="Plutón, planeta enano" title="" coords="798,223,854,245"
+            href="https://es.wikipedia.org/wiki/Plut%C3%B3n_(planeta_enano)" target="_blank" /><area shape="rect"
+            alt="Hydra, Luna de Plutón" title="" coords="792,185,824,205"
+            href="https://es.wikipedia.org/wiki/Hidra_(sat%C3%A9lite)" target="_blank" /><area shape="rect"
+            alt="Caronte, el satélite más grande Plutón" title="" coords="852,201,900,214"
+            href="https://es.wikipedia.org/wiki/Caronte_(sat%C3%A9lite)" target="_blank" /><area shape="rect"
+            alt="Cerbero, satélite de Plutón" title="" coords="876,219,918,229"
+            href="https://es.wikipedia.org/wiki/Cerbero_(sat%C3%A9lite)" target="_blank" /><area shape="rect"
+            alt="Eris, planeta enano, nunca visitado" title="" coords="904,30,956,64"
+            href="https://es.wikipedia.org/wiki/Eris_(planeta_enano)" target="_blank" /><area shape="rect"
+            alt="Haumea, planeta más allá de neptuno" title="" coords="861,119,932,142"
+            href="https://es.wikipedia.org/wiki/Haumea_(planeta_enano)" target="_blank" /><area shape="rect"
+            alt="Cinturón de Kuiper" title="" coords="924,159,964,323"
+            href="https://es.wikipedia.org/wiki/Cintur%C3%B3n_de_Kuiper" target="_blank" /><area shape="rect"
+            alt="Makemake, planeta enano del cinturón de Kuiper" title="" coords="812,315,918,350"
+            href="https://es.wikipedia.org/wiki/Makemake_(planeta_enano)" target="_blank" />
+        </map>
+    <br>
+
+    <p style="text-align: center;"><a href="#Inicio">Volver Arriba</a></p>
+
+</section></main>
+    
+    
+<footer>
+    <!-- El siguiente script me permite poner el @AÑO Todos los derechos -Andrés Heras-->
+    <address>Córdoba, Spain</addres>
+        <div>
+            &copy;
+            <span id="copyright">
+                <script>
+                    document.getElementById('copyright').appendChild(document.createTextNode(new Date()
+                        .getFullYear()))
+                </script>
+            </span>
+            Todos los derechos - Andrés Heras
+        </div>
+        <!-- El siguiente código HTML es para poner el copyright -->
+        <!-- <p><sall>&copy; Todos los derechos - Andrés Heras </small></p>-->
+</footer>
+</body>
+</html>
