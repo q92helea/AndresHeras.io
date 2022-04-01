@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu responsive
+
+    </title>
+
+    <style>
+
+    body {
+        margin: 0;
+        font-family: ;
+      }
+      
+      header {
+        width: 100%;
+        background-color: #4e94ab;
+      }
+      
+      #btn-menu {
+        display: none;
+      }
+      
+      header label {
+        display: none;
+        height: 30px;
+        width: 30px;
+        padding: 10px;
+        border-right: 1px solid #fff;
+      }
+      
+      header label:hover {
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0.3);
+      }
+      
+      .menu ul {
+        margin: 0;
+        list-style: none;
+        padding: 0;
+        display: flex;
+      }
+      
+      .menu li {
+        border-right: 1px solid #fff;
+      }
+      
+      .menu li:hover {
+        background: rgba(0,0,0,0.3);
+      }
+      
+      .menu li a {
+        display: block;
+        padding: 15px 20px;
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      @media (max-width: 768px) {
+        header label {
+          display:block;
+        }
+        
+        .menu {
+          position: absolute;
+          background: #4e94ab;
+          width:70%;
+          margin-left: -70%;
+          transition: all 0.5s;
+        }
+        
+        .menu ul {
+          flex-direction: column;
+        }
+        .menu li {
+          border-top: 1px solid #fff;
+        }
+        
+        #btn-menu:checked ~ .menu {
+          margin: 0;
+        }
+      }</style>
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu" ><img src="../images/hamburguerbars.svg" alt="menu" width="32" height="32"></label>
+        <nav class="menu">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Serviços</a></li>
+            <li><a href="">Produtos</a></li>
+            <li><a href="">Clientes</a></li>
+            <li><a href="">Contatos</a></li>
+          </ul>  
+        </nav>  
+      </header>
+</body>
+
+</html>
