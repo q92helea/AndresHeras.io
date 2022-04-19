@@ -1,0 +1,35 @@
+//Cuestionario realizado por Andrés Heras Leiva
+//Pregunta 1: ¿Cúal de estos lenguajes es un metalenguaje? {
+-CSS
+-JS
+=XML
+}
+
+//Pregunta 2: ? Todo documento HTML comienza por la etiqueta...{
+
+=<DOCTYPE!html>
+~<html>
+~<html lang='es'>
+
+
+//Pregunta 3: ¿Qué simbolo especifica el código &lt? {
+~">"
+="<"
+~"-"
+
+~Lenguaje de marcado procedimental
+=Lenguaje de marcado descriptivo
+}
+
+//Pregunta 4: ¿Cómo clasificaríamos al lenguaje de marcas HTML? {
+=Todas las respuestas son correctas
+~Lenguaje de marcado de presentación
+~Lenguaje de marcado procedimental
+~Lenguaje de marcado descriptivo
+}
+
+//Pregunta 5:¿Quien es el creador de la web?::
+~ Bill Gates
+~ Richard Stallman
+= Tim Berners
+}
