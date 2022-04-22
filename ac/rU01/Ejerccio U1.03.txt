@@ -1,0 +1,34 @@
+//Cuestionario realizado por Andrés Heras Leiva
+//Pregunta 1: ¿Qué herramienta es necesaria para interpretar un código HTML? {
+-Procesador de texto
+-Editor de texto
+=Navegador web
+}
+
+//Pregunta 2: Los navegadores web son ...
+-Supermineralizados
+-Supervitaminados
+-Fuertes
+-Seguros
+=La primera y la segunda opción
+-La tercera y la cuarta opción
+
+//Pregunta 3: ¿Cómo clasificaríamos al lenguaje de marcas XML? {
+~Todas las respuestas son correctas
+~Lenguaje de marcado de presentación
+~Lenguaje de marcado procedimental
+=Lenguaje de marcado descriptivo
+}
+
+//Pregunta 4: ¿Cómo clasificaríamos al lenguaje de marcas HTML? {
+=Todas las respuestas son correctas
+~Lenguaje de marcado de presentación
+~Lenguaje de marcado procedimental
+~Lenguaje de marcado descriptivo
+}
+
+//Pregunta 5:¿Quien es el creador de la web?::
+~ Bill Gates
+~ Richard Stallman
+= Tim Berners
+}

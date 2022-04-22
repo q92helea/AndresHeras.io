@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <title>1ºASIR</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Actividades Documentos de HTML">
+        <meta name="autor" content="Andrés Heras">
+        <meta name="keywords" content="HTML5,HTML">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+
+<body>
+
+    <header>
+        <h1>UNIDAD 03</h1>
+        <h2>Documentos HTML. HTML5</h2>
+    </header>
+
+     <!-- El cuerpo consta de: 
+    - menú principal <nav> : Nos dará acceso a toda la Web.
+    - estructura semántica básica donde habrá otro menú secundario de navegación que 
+    conecta la páginas que comparten el mismo tema-->
+
+    <nav>
+        <ul class="menu">
+        <li><a href="../index.html">Inicio</a>
+        </li>
+        <li><a href="../ac/U01.html">Unidad 01</a>
+        </li>
+        <li><a href="../ac/U02.html">Unidad 02</a></li>
+        <!-- <li><a href="../ac/U03.1.EC.html">Unidad 03</a>
+        </li> -->
+ 
+        <li><a href="../ac/U04.html">Unidad 04</a>
+        </li>
+        <li><a href="../cp/index.html">Córdoba Patrimonio</a>
+        </li>
+        <li> <a href="/rec/recetas.html">Las Recetas de la Abuela</a>
+        </li>
+    </ul>
+</nav>
+
+    <header>
+        <h1>UNIDAD 03</h1>
+        <h2 id="Inicio">Documentos HTML. HTML5</h2>
+    </header>
+
+    <main>
+
+        <section>
+            <h2 style="text-align: center; text-decoration: solid;">3.4 LISTAS</h2>
+            <nav><ul class="menu">
+                <li><a href="../ac/U03.1.EC.html">
+                    <h3>3.1 Estructura y contenido</h3>
+                </a></li>
+                <!-- <li><a href="../ac/U03.2.link.html"><h3>3.2 Enlaces</h3></a></li>  -->
+                <li><a href="../ac/U03.3.img.html">
+                    <h3>3.3 Imágenes</h3>
+                </a></li>
+                <li><a href="../ac/U03.4.list.html">
+                    <h3>3.4 Listas</h3>
+                </a></li>
+                <li><a href="../ac/U03.5.table.html">
+                    <h3>3.5 Tablas</h3>
+                </a></li>
+                <li><a href="../ac/U03.6v&a.html">
+                    <h3>3.6 Vídeos</h3>
+                </a></li>
+            </ul>
+</nav>
+
+
+        <h4> Recursos:</h4>
+        <a href="https://www.w3.org/2009/cheatsheet/">W3C cheatsheet</a>
+        <br>
+        <a href="https://developer.mozilla.org/es/docs/Web/HTML/Attributes"> Referencia de atributos MDN</a>
+
+        <p>3.4.1. Busque la lista de atributos admitidos para la etiqueta <em>&lt;area></em>.</p>
+        <p><u>Respuesta</u></p>
+        <ul>
+            <li><em>alt:</em> Especifica texto alternativo para el area.</li>
+            <li><em>coords:</em> Especifica coordenadas para el area.</li>
+            <li><em>download</em>: Especifica el objetivo que se va a descargar cuando el usuario pinche en el
+                hipervinculo.</li>
+            <li><em>href</em>: Especifica el objetivo del hipervinculo.</li>
+            <li><em>hfreflang</em>: Especifica el lenguaje de la URL.</li>
+            <li><em>media</em>: Especifica el dispositivo/media para el cual está optimizada la URL.</li>
+            <li><em>rel</em>: Especifica la relación entre el documento actual y la URL de destino.</li>
+            <li><em>shape</em>: Especifica la forma del area.</li>
+            <li><em>target</em>: Especifica donde se abrira la URL.</li>
+            <li><em>types</em>: Especifica el tipo de media de la URL.</li>
+        </ul>
+        <br>
+        <p> 3.4.2. Indica para que sirven estas etiquetas:<em> &lt;details>, &lt;mark>,&lt;summary> ,&lt;hr></em>. Pon
+            ejemplos.</p>
+        <p><strong>&lt;details></strong>: Representa un trozo de contenido oculto que puede ser mostrado a petición del
+            usuario.</p>
+        <p>Ver ejemplo en &lt;summary></p>
+        <br>
+        <p><strong>&lt;mark></strong>: Representa a un trozo de texto remarcado o resaltado al cual los autores pueden
+            referirse
+            desde otro documento, con el fin de analizarlo o explicarlo. </p>
+        <p>Ejemplo:</p>
+        <em>
+            <p>La palabra <mark>árbol</mark> está marcada</p>
+        </em>
+        <br>
+        <p><strong>&lt;summary></strong>: Representa un resumen, título o etiqueta para los contenidos de un elemento.
+        </p>
+        <p>Ejemplo con &lt;summary> y &lt;details>:</p>
+        <em>
+            <details>
+                <summary>En este ejemplo utilizo details y summary</summary>
+                <p>Al desplegar la flecha, puedo introducir detalles.</p>
+            </details>
+        </em>
+        <br>
+        <p><strong>&lt;hr></strong>: Representa una división temática o un quiebre en el texto.</p>
+        <p> Ejemplo:</p>
+
+        <p>ejercicio 01</p>
+        <p>Respuesta</p>
+        <hr>
+        <p>ejercicio 02</p>
+        <p>Respuesta</p>
+        <hr>
+        <br>
+        <p>3.4.3. Crea un documento que incluya:</p>
+        <ol>
+            <li> Una lista ordenada de monumentos de Córdoba.</li>
+            <li>La lista anterior empezando en el número 11</li>
+            <li>La lista anterior invertida.</li>
+            <li> La lista anterior con el título: “Lista de monumentos”.</li>
+        </ol>
+        <a href="../ac/rU03/rU03.4.3.html">Respuesta</a>
+        <br>
+        <p>3.4.4. Crea un documento HTML que genere la salida de la imagen:</p>
+        <img src="../images/U03.4ACT4.jpg" alt="Foto ejemplo Actividad">
+        <br>
+        <a href="/ac/rU03/rU03.4.4.html">Respuesta</a>
+        <br>
+        <p style="text-align: center;"><a href="#Inicio">Volver Arriba</a></p>
+
+    </section>
+    <footer>
+        <!-- El siguiente script me permite poner el @AÑO Todos los derechos -Andrés Heras-->
+        <address>Córdoba, Spain</addres>
+            <div>
+                &copy;
+                <span id="copyright">
+                    <script>
+                        document.getElementById('copyright').appendChild(document.createTextNode(new Date()
+                            .getFullYear()))
+                    </script>
+                </span>
+                Todos los derechos - Andrés Heras
+            </div>
+            <!-- El siguiente código HTML es para poner el copyright -->
+            <!-- <p><sall>&copy; Todos los derechos - Andrés Heras </small></p>-->
+    </footer>
+</body>
+
+</html>
