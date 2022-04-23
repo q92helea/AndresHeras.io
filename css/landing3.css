@@ -1,3 +1,8 @@
+* {                         /*RESETEAMOS CSS NAVEGADOR*/
+  margin: 0;
+  padding: 0;
+  }
+
 title{
     background-color: black;
     color:#a6e665;
