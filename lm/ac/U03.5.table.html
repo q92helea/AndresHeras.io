@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <title>1ºASIR</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Actividades Documentos de HTML">
+    <meta name="autor" content="Andrés Heras">
+    <meta name="keywords" content="HTML5,HTML">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+ <!-- El cuerpo consta de: 
+    - menú principal <nav> : Nos dará acceso a toda la Web.
+    - estructura semántica básica donde habrá otro menú secundario de navegación que 
+    conecta la páginas que comparten el mismo tema-->
+
+    <nav>
+      <ul class="menu">
+      <li><a href="../index.html">Inicio</a>
+      </li>
+      <li><a href="../ac/U01.html">Unidad 01</a>
+      </li>
+      <li><a href="../ac/U02.html">Unidad 02</a></li>
+      <!-- <li><a href="../ac/U03.1.EC.html">Unidad 03</a>
+      </li> -->
+
+      <li><a href="../ac/U04.html">Unidad 04</a>
+      </li>
+      <li><a href="../cp/index.html">Córdoba Patrimonio</a>
+      </li>
+      <li> <a href="/rec/recetas.html">Las Recetas de la Abuela</a>
+      </li>
+  </ul>
+</nav>
+
+  <header>
+      <h1>UNIDAD 03</h1>
+      <h2 id="Inicio">Documentos HTML. HTML5</h2>
+  </header>
+
+  <main>
+
+      <section>
+          <h2 style="text-align: center; text-decoration: solid;">3.5 TABLAS</h2>
+          <nav><ul class="menu">
+              <li><a href="../ac/U03.1.EC.html">
+                  <h3>3.1 Estructura y contenido</h3>
+              </a></li>
+              <li><a href="../ac/U03.2.link.html"><h3>3.2 Enlaces</h3></a></li> 
+              <li><a href="../ac/U03.3.img.html">
+                  <h3>3.3 Imágenes</h3>
+              </a></li>
+              <li><a href="../ac/U03.4.list.html">
+                  <h3>3.4 Listas</h3>
+              </a></li>
+              <!-- <li><a href="../ac/U03.5.table.html">
+                  <h3>3.5 Tablas</h3>
+              </a></li> -->
+              <li><a href="../ac/U03.6v&a.html">
+                  <h3>3.6 Vídeos</h3>
+              </a></li>
+          </ul>
+</nav>
+      <br>
+      <p>3.5.1. Crea un documento HTML que genere la salida de la imagen.</p>
+      <img src="../images/U03.5.1_Tabla.jpg" alt="Foto de la tabla del ejercicio 1" width="200">
+      <br>
+      <p><u>Respuesta</u></p>
+      <table border="1 ">
+        <tr>
+          <td colspan="4">Cabecera de la tabla</td>
+        </tr>
+        <tr>
+          <td>Cell 1</td>
+          <td>Cell 2</td>
+          <td>Cell 3</td>
+          <td>Cell 4</td>
+        </tr>
+        <tr>
+          <td colspan="4">Pie de la tabla</td>
+        </tr>
+      </table>
+      <br>
+      <p>2. Crea un documento HTML que genere la salida de la imagen.</p>
+      <img src="../images/U03.5.2_Tabla.jpg" alt="Foto de la tabla del ejercicio 1" width="400">
+  
+  
+      <p><u>Respuesta</u></p>
+  
+      <table border="1px solid black">
+        <tr>
+          <th colspan="2">&nbsp;</th>
+          <th colspan="2">Mafalda</th>
+          <th colspan="2">Mortadelo</th>
+        </tr>
+        <tr>
+          <th colspan="2">Fecha</th>
+          <th>Entrada</th>
+          <th>Salida</th>
+          <th>Entrada</th>
+          <th>Salida</th>
+        </tr>
+        <tr>
+          <th colspan="2">15/10</th>
+          <td>8:00</td>
+          <td>15:00</td>
+          <td>10:00</td>
+          <td>12:00</td>
+        </tr>
+        <tr>
+          <th colspan="2">16/10</th>
+          <td>9:00</td>
+          <td>15:00</td>
+          <td>9:30</td>
+          <td>15:30</td>
+        </tr>
+        <tr>
+          <th colspan="2">09/08</th>
+          <td>8:30</td>
+          <td>12:30</td>
+          <td>10:00</td>
+          <td>22:00</td>
+        </tr>
+        <tr>
+          <th colspan="2">22/10</th>
+          <td>18:00</td>
+          <td>19:00</td>
+          <td>10:00</td>
+          <td>16:00</td>
+        </tr>
+        <tr>
+          <th colspan="2">25/10</th>
+          <td>8:00</td>
+          :<td>12:00</td>
+          <td>11:00</td>
+          <td>17:00</td>
+        </tr>
+        <tr>
+          <th colspan="2">Importe Horas</th>
+          <td colspan="2">250€</td>
+          <td colspan="2">325€</td>
+        </tr>
+      </table>
+  
+      <p><u>Respuesta</u></p>
+  
+      <p>3.5.3. Crea una tabla con el horario del curso.</p>
+      <table border="1">
+        <tr>
+          <th>Horas</th>
+  
+          <th>Lunes</th>
+          <th>Martes</th>
+          <th>Miércoles</th>
+          <th>Jueves</th>
+          <th>Viernes</th>
+        </tr>
+        <tr>
+          <td>08:15 a 09:15</td>
+  
+          <td rowspan="2" class="par">PAR</td>
+          <td rowspan="2" class="iso">ISO</td>
+          <td class="gbd" rowspan="2" colspan="2">GBD</td>
+          <!--<td>GBD</td>-->
+          <td class="lmsgi" rowspan="2">LMSGI</td>
+  
+        </tr>
+        <tr>
+          <td>09:15 a 10:15</td>
+          <!--<td>PAR</td>-->
+          <!--<td>ISO</td>-->
+          <!--<td>GBD</td>-->
+          <!--<td>GBD</td>-->
+          <!--<td>LMSGI</td>-->
+  
+        </tr>
+        <tr>
+          <td>10:15 a 11:15</td>
+  
+          <td class="fol">FOL</td>
+          <td class="gbd">GBD</td>
+          <td class="par">PAR</td>
+          <td class="fol">FOL</td>
+          <td class="par">PAR</td>
+  
+        </tr>
+        <tr>
+          <td>11:15 a 11:45</td>
+          <td colspan="5">RECREO</td>
+          <!--<td>RECREO</td>
+  <td>RECREO</td>
+  <td>RECREO</td>
+  <td>RECREO</td>-->
+        </tr>
+        <tr>
+          <td>11:45 a 12:45</td>
+          <td class="fol"> FOL</td>
+          <td class="gbd">GBD</td>
+          <td class="par">PAR</td>
+          <td class="iso" rowspan="2">ISO</td>
+          <td class="par">PAR</td>
+        </tr>
+        <tr>
+          <td>12:45 a 13:45</td>
+          <td class="iso" rowspan="2">ISO</td>
+          <td class="lmsgi">LMSGI</td>
+          <td class="fh">FH</td>
+          <td class="iso">ISO</td>
+          <!--<td>ISO</td>-->
+        </tr>
+        <tr>
+          <td>13:45 a 14:45</td>
+          <td class="iso">ISO</td>
+          <td class="lmsgi">LMSGI</td>
+          <td class="fh">FH</td>
+          <td class="fh">FH</tdc>
+            <!--<td>ISO</td>-->
+        </tr>
+      </table>
+  
+  
+      <p>3.5.4. Tabla para mostrar información de continentes, países, capitales, banderas. Incluye
+        enlaces para acceder a información adicional.
+      </p>
+      <table border="1px solid black">
+        <tr>
+          <td colspan="2">País</td>
+          <td colspan="2">Capital</td>
+          <td colspan="2">Bandera</td>
+          <td colspan="2">Continente</td>
+        </tr>
+        <tr>
+          <td colspan="2"><a href="https://es.wikipedia.org/wiki/Espa%C3%B1a">España</a></td>
+          <td colspan="2"><a href="https://es.wikipedia.org/wiki/Madrid">Madrid</a></td>
+          <td colspan="2"><img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1280px-Bandera_de_Espa%C3%B1a.svg.png"
+              alt="Bandera de España" width="50" </td>
+          <td colspan="2"><a href="https://es.wikipedia.org/wiki/Europa">Europa</td>
+        </tr>
+        <tr>
+          <td colspan="2"><a href="https://es.wikipedia.org/wiki/Australia">Australia</a></td>
+          <td colspan="2"><a href="https://es.wikipedia.org/wiki/Canberra">Canberra</a></td>
+          </td>
+          <td colspan="2"><img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/135px-Flag_of_Australia_%28converted%29.svg.png"
+              alt="Bandera de Australia" width="50" height="30" </td>
+          <td colspan="2"><a href="https://es.wikipedia.org/wiki/Ocean%C3%ADa">Oceanía</a></td>
+        </tr>
+        <tr>
+        <td colspan="2"><a href="https://es.wikipedia.org/wiki/Banglad%C3%A9s">República Popular de Bangladés</a></td>
+        <td colspan="2"><a
+            href="https://es.wikipedia.org/wiki/Dacahttps://es.wikipedia.org/wiki/Dacahttps://es.wikipedia.org/wiki/Daca">Dacca</a>
+        </td>
+        </td>
+        <td colspan="2"><img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/135px-Flag_of_Bangladesh.svg.png"
+            alt="Bandera de República de Bangladés" width="50" height="30"</td>
+        <td colspan="2"><a href="https://es.wikipedia.org/wiki/Asia">Asia</a></td>
+        </tr>
+        <td colspan="2"><a href="https://es.wikipedia.org/wiki/Suazilandia">Suizalandia</a></td>
+        <td colspan="2"><a href="https://es.wikipedia.org/wiki/Mbabane">Mbabane,<br>
+            <a href="https://es.wikipedia.org/wiki/Lobamba">Lobamba</a></td>
+        </td>
+        <td colspan="2"><img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Eswatini.svg/135px-Flag_of_Eswatini.svg.png"
+            alt="Bandera de Suizalandia" width="50" height="35"</td>
+        <td colspan="2"><a href="https://es.wikipedia.org/wiki/Ocean%C3%ADa">África</a></td>
+        </tr>
+        <td colspan="2"><a href="https://es.wikipedia.org/wiki/Antigua_y_Barbuda">Antigua y Barbuda</a></td>
+        <td colspan="2"><a href="https://es.wikipedia.org/wiki/Saint_John_(Antigua_y_Barbuda)">Saint John</a></td>
+        </td>
+        <td colspan="2">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Antigua_and_Barbuda.svg/135px-Flag_of_Antigua_and_Barbuda.svg.png"
+            alt="Bandera de Antigua y Barbuda" width="50">
+        </td>
+        <td colspan="2"><a href="https://es.wikipedia.org/wiki/Ocean%C3%ADa">América</a></td>
+        </tr>
+      </table>
+      <p>3.5.5. Tabla de notas para lenguaje de marcas.</p>
+      <table border="1px solid black">
+        <tr>
+          <td rowspan="2">Alumno</td>
+          <td colspan="2">1ev</td>
+          <td colspan="2">2ev</td>
+          <td colspan="2">3ev</td>
+          <td>Final</td>
+        </tr>
+        <tr>
+          <td>Práctica</td>
+          <td>Teoría</td>
+          <td>Práctica</td>
+          <td>Teoría</td>
+          <td>Práctica</td>
+          <td>Teoría</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+      </p>
+      <p style="text-align: center;"><a href="#Inicio">Volver Arriba</a></p>
+  
+    </section>
+  </main>
+
+  <footer>
+    <!-- El siguiente script me permite poner el @AÑO Todos los derechos -Andrés Heras-->
+    <address>Córdoba, Spain</addres>
+        <div>
+            &copy;
+            <span id="copyright">
+                <script>
+                    document.getElementById('copyright').appendChild(document.createTextNode(new Date()
+                        .getFullYear()))
+                </script>
+            </span>
+            Todos los derechos - Andrés Heras
+        </div>
+        <!-- El siguiente código HTML es para poner el copyright -->
+        <!-- <p><sall>&copy; Todos los derechos - Andrés Heras </small></p>-->
+</footer>
+</body>
+
+</html>
