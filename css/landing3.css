@@ -75,7 +75,23 @@ title{
     font-size: 1.5em;
 
   }
+  /*Reglas CSS para imágenes*/
+  .ojobuey {
+    border-radius: 50%;
+    border: 10px solid #a6e665;
+    text-align-last: auto;
 
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .social{
+    padding: 20px;
+  
+  }
 /*------ CSS DE ENLACES------*/
   a:link {
     color: #616161;
@@ -102,20 +118,4 @@ title{
 
   }
   
-  /*Reglas CSS para imágenes*/
-  .ojobuey {
-    border-radius: 50%;
-    border: 10px solid #a6e665;
-    text-align-last: auto;
 
-  }
-
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .social{
-    padding: 20px;
-  
-  }
