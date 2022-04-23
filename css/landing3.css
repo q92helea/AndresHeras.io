@@ -11,7 +11,7 @@ title{
     grid-template-areas:
       'Foto Presentacion'
       'Menu Presentacion';
-    justify-items:stretch;
+    justify-content:space-between;
 
     height: 100%;
    background-color: #87a98e;
