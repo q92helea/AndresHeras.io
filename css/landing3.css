@@ -11,7 +11,7 @@ title{
     grid-template-areas:
       'Foto Presentacion'
       'Menu Presentacion';
-    justify-items: center;
+    justify-items:stretch;
 
     height: 100%;
    background-color: #87a98e;
@@ -59,14 +59,11 @@ title{
   }
 
   nav li>a {
-    list-style: none;
-    /*Quita viñetas*/
-    text-decoration: none;
-    /*Quita subrayado de "<a>"*/
+    list-style: none;                                                                                                 /*Quita viñetas*/
+    text-decoration: none;                                                                                  /*Quita subrayado de "<a>"*/    
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display: block;
-    /*Mediante display haremos que el menú sea
-          HORIZONTAL (inline-block) ó VERTICAL (BLOCK)*/
+    display: block;                                                                                                  /*Mediante display haremos que el menú sea 
+              HORIZONTAL (inline-block) ó VERTICAL (BLOCK)*/
     border: 2px solid #87a98e;
     /*Para ver los botones*/
     margin: 1vw;
