@@ -23,8 +23,10 @@ tr {
     </tr>
     <xsl:for-each select="catalog/cd"><!-- for-each pertenece al Espacio de NombreS XSL-->
     <tr>
-      <td><xsl:value-of select="title"/></td><!--Con 'value-of' Accede o devuelve los valores title-->
-      <td><xsl:value-of select="Bob Dylan"/></td>
+      <xsl:if test="artist='Bob Dylan">
+        <td><xsl:value-of select="title"/></td><!--Con 'value-of' Accede o devuelve los valores title-->
+        <td><xsl:value-of select="artist"/></td>
+      </xsl:if>
     </tr>
     </xsl:for-each>
   </table>
