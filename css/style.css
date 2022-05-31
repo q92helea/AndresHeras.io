@@ -1,3 +1,4 @@
+/*Hoja de estilos de actividades*/
 /*Colores elegidos de  COLORMIND:
 #29be09
 #7bdb1f
@@ -142,11 +143,12 @@ article {
   /*background-color:#616161;*/
 }
 article p {
-  background-color: #7ac8c0;
- padding: 20px 10px 50px 20px;
+
 }
 
 .p {
+  background-color: #7ac8c0;
+  padding: 20px 10px 50px 20px;
   border-left:2px solid #7bdb1f;
 }
 

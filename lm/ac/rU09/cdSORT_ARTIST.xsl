@@ -21,12 +21,11 @@ tr {
       <th>Title</th>
       <th>Artist</th>
     </tr>
-    <xsl:for-each select="/catalog/cd[artist='Bod Dylan']"><!-- for-each pertenece al Espacio de NombreS XSL-->
+    <xsl:for-each select="/catalog/cd"><!-- for-each pertenece al Espacio de NombreS XSL-->
+    <xsl:sort select="artist"/>
     <tr>
- 
         <td><xsl:value-of select="title"/></td><!--Con 'value-of' Accede o devuelve los valores title-->
         <td><xsl:value-of select="artist"/></td>
-
     </tr>
     </xsl:for-each>
   </table>

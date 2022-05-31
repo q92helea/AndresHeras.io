@@ -49,8 +49,8 @@ section {
   background: linear-gradient(to right,#588f5b, #4bb651);
   color: #fff;
   /*border-radius: 10px 40px 40px 10px;*/
-  border-top-left-radius: 60%;
-  border-bottom-left-radius: 60%;
+  border-top-left-radius: 40%;
+  border-bottom-left-radius: 40%;
 }
 
 .card-body {
